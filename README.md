@@ -29,3 +29,7 @@ Interactive TODO CLI built with Ink (React for CLIs).
 ## Notes
 
 - No JSX or build step; uses `React.createElement` via Ink.
+
+## Provenance
+
+This project was created entirely using Codex CLI, guided by a human.
