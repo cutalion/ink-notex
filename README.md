@@ -18,13 +18,21 @@ Interactive TODO CLI built with Ink (React for CLIs).
 - a: Add task
 - e: Edit task
 - d: Delete task
-- s: Save to `.notex.json`
+- u / Ctrl+Z: Undo
+- r / Ctrl+Y: Redo
+- o: Settings (switch storage)
+- h / ?: Help
+- s: Save now (autosave is on)
 - q: Save and quit
-- Esc: Cancel input
+- Esc: Cancel input / close help/settings
+- Ctrl+C: Press twice quickly to exit
 
 ## Data
 
-- Tasks persist to `.notex.json` in the current working directory.
+- Autosaves to the chosen storage location.
+- Project storage: `./.notex.json` in the current working directory.
+- Global storage: `~/.notex-global.json` in your home directory.
+- The app picks a sensible default (project if present, otherwise global).
 
 ## Notes
 
