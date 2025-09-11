@@ -8,5 +8,8 @@ const initial = loadTasks();
 const canUseRawMode = Boolean(process.stdin && typeof process.stdin.setRawMode === 'function');
 render(
   React.createElement(App, {initialTasks: initial}),
-  {isRawModeSupported: canUseRawMode}
+  {
+    isRawModeSupported: canUseRawMode,
+    exitOnCtrlC: false // handle Ctrl+C ourselves (double-press to exit)
+  }
 );
