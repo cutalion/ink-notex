@@ -47,3 +47,8 @@ Watch the terminal cast on Asciinema: https://asciinema.org/a/qIj9H46eqlndWXItsT
 ## Provenance
 
 This project was created entirely using Codex CLI, guided by a human.
+In this project, the `gpt-5 medium` model was used solely.
+
+## Related
+
+- ink-notes: https://github.com/cutalion/ink-notes — similar TODO CLI made by Claude Code; uses TypeScript and TSX.
