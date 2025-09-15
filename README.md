@@ -2,6 +2,12 @@
 
 Interactive TODO CLI built with Ink (React for CLIs).
 
+## Demo
+
+![Notex demo](./demo.gif)
+
+Watch the terminal cast on Asciinema: https://asciinema.org/a/qIj9H46eqlndWXItsTlC6AOOg
+
 ## Install & Run
 
 - Local run:
